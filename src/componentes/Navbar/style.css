@@ -11,14 +11,12 @@ body {
 }
 .navMenu{
   z-index: 1000;
-  background-color: #080808;
   padding-top: 10px;
   padding-bottom: 10px;
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid rgb(0, 118, 197);
 }
 
 .navMenu a {
@@ -66,4 +64,9 @@ body {
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+
+a {
+  padding: 3px;
+  border: 1px solid rgb(255, 255, 255);
 }

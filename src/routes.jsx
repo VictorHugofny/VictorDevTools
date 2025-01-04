@@ -3,6 +3,7 @@ import Navbar from './componentes/Navbar';
 import ConversorCSV from './views/conversorCSV';
 import GerarSenhas from './views/geradorSenhas';
 
+
 function RoutesAPP() {
   return (
     <Router>
@@ -10,6 +11,7 @@ function RoutesAPP() {
       <Routes>
         <Route path="/" element={<ConversorCSV />} />
         <Route path="/senhas" element={<GerarSenhas />} />
+       
       </Routes>
     </Router>
   );
