@@ -70,5 +70,5 @@ body {
 
 a {
   padding: 3px;
-  border: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
 }
