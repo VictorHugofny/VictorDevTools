@@ -1,0 +1,90 @@
+h3, h1, p, h2, h5, h4{
+    color: aliceblue;
+}
+
+h1{
+    padding: 20px;
+}
+
+h3{
+    padding: 4px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding: 4px;
+    
+}
+.converter{
+    margin-top: 10px;
+}
+
+.container{
+    background-color: rgba(124, 122, 122, 0);
+    /* padding: 20px; */
+}
+
+.resultado{
+    margin-top: 20px;
+    /* background-color: aliceblue; */
+}
+
+.result{
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+
+input.form-control {
+    color: white;
+}
+
+.baixarJson{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 115, 255);
+    border: 1px solid black;
+    font-weight: 600px;
+    margin-right: 20px;
+}
+
+
+
+.arquivo {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 27, 50, 0);
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jsonResult{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border: solid 2px rgb(2, 162, 255);
+    background-color: rgb(214, 214, 214);
+}
+
+button{
+    background-color: rgb(0, 76, 255);
+    color: rgb(255, 255, 255);
+    padding: 28px;
+    margin-bottom: 6px;
+    border: 1px solid black;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 55px;
+}
+
+icon{
+    font-size: 30px;
+}
+
+.react-json-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
