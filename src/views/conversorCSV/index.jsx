@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import csv from "csvtojson";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReactJson from 'react-json-view';
+import { JsonView, allExpanded, darkStyles, defaultStyles } from 'react-json-view-lite';
+import 'react-json-view-lite/dist/index.css';
 
 function CSVUploader() {
   const [file, setFile] = useState(null);
@@ -104,15 +105,23 @@ function CSVUploader() {
           <div className="result">
             <h3>JSON Resultante:</h3>
             <div className="result">
-            <button className="baixarJson" onClick={downloadJsonFile}>
-              Baixar JSON em UTF-8
-            </button>
-            <button onClick={copyToClipboard}>
-              Copiar Texto
-            </button>
+              <div className="resultButtons">
+                <button className="baixarJson" onClick={downloadJsonFile}>
+                  Baixar JSON em UTF-8
+                </button>
+                <button onClick={copyToClipboard}>
+                  Copiar Texto
+                </button>
+              </div>
+              
           </div>
-            <ReactJson src={jsonData} theme="monokai" collapsed={false} />
+          <div className="jsonFormater">
+          <React.Fragment>
+            <JsonView className = "jsonFormat" data={jsonData} shouldExpandNode={allExpanded} style={darkStyles} />
+          </React.Fragment>
           </div>
+          
+                </div>
         </div>
       )}
     </div>

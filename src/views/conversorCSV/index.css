@@ -82,9 +82,24 @@ icon{
     font-size: 30px;
 }
 
-.react-json-view {
+._11RoI._GzYRV {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
+    border: 1px solid rgb(27, 130, 255);
+}
+
+._2bkNM {
+    font-size: 20px;
+    width: 600px;
+    
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultButtons {
+    display: flex;
 }
