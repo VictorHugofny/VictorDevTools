@@ -1,0 +1,8 @@
+{
+    "routes": [
+      {
+        "src": "/senhas",
+        "dest": "/src/views/geradorSenhas/index.jsx"
+      }
+    ]
+}
